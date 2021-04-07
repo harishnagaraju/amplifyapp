@@ -21,9 +21,6 @@ function validateForm() {
   <input type="submit" value="Submit">
 </form>
 
-</body>
-</html>
-
 
 
 function App() {
@@ -46,5 +43,6 @@ function App() {
     </div>
   );
 }
-
+</body>
+</html>
 export default App;
