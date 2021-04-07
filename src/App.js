@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-<!DOCTYPE html>
+
+
+
+function App() {
+  return (
+    <!DOCTYPE html>
 <html>
 <head>
 <script>
@@ -20,11 +25,10 @@ function validateForm() {
   Name: <input type="text" name="fname">
   <input type="submit" value="Submit">
 </form>
-
-
-
-function App() {
-  return (
+</body>
+</html>
+    
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -43,6 +47,5 @@ function App() {
     </div>
   );
 }
-</body>
-</html>
+
 export default App;
